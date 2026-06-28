@@ -34,11 +34,9 @@ pipeline {
 
         stage('Build Docker Image') {
             steps {
-                dir('src') {
-                    sh """
-                    docker build -t ${ECR_URI}/${IMAGE_NAME}:${IMAGE_TAG} .
-                    """
-                }
+                sh """
+                docker build -t ${ECR_URI}/${IMAGE_NAME}:${IMAGE_TAG} .
+                """
             }
         }
 

@@ -5,7 +5,7 @@ pipeline {
         AWS_REGION = "ap-south-1"
         AWS_ACCOUNT_ID = "666177270376"
         ECR_REPO = "threetierapp"
-        IMAGE_TAG = "adservice-latest"
+        IMAGE_TAG = "checkoutservice-latest"
         ECR_URI = "${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_REGION}.amazonaws.com/${ECR_REPO}"
     }
 

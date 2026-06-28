@@ -654,7 +654,7 @@ spec:
       terminationGracePeriodSeconds: 5
       containers:
       - name: server
-        image:  image: 666177270376.dkr.ecr.ap-south-1.amazonaws.com/threetierapp:adservice-latest
+        image: 666177270376.dkr.ecr.ap-south-1.amazonaws.com/threetierapp:adservice-latest
         ports:
         - containerPort: 9555
         env:

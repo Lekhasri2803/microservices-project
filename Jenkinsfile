@@ -4,7 +4,7 @@ pipeline {
     environment {
         AWS_REGION = "ap-south-1"
         IMAGE_NAME = "adservice"
-        ECR_REPO = "ThreeTierApp"
+        ECR_REPO = "threetierapp"
         IMAGE_TAG = "latest"
     }
 
